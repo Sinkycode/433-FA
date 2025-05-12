@@ -7,9 +7,10 @@ import {
   ProgramFeatures,
   LocationSection,
   Facilities,
+  Why433Section1,
+  Why433Section2,
+  Methodology,
 } from "./sections/index";
-import Why433Section1 from "./sections/Why433Section1";
-import Why433Section2 from "./sections/Why433Section2";
 
 const App = () => {
   return (
@@ -40,6 +41,9 @@ const App = () => {
       </section>
       <section>
         <Why433Section2 />
+      </section>
+      <section className="min-h-screen relative">
+        <Methodology />
       </section>
     </>
   );

@@ -25,8 +25,8 @@ const Why433Section2 = () => {
           <p className="uppercase text-lg justify-self-end mb-5 px-7">
             Competitive matches & Scouting opportunities
           </p>
-          <div className="bg-black p-6 text-white leading-relaxed rounded-s-3xl h-max">
-            <p className="mb-5">
+          <div className="bg-black p-6 text-lg text-white leading-relaxed rounded-s-3xl h-max">
+            <p>
               We prepare our players for top competitions, offering them
               exposure through: National and regional tournaments, High-profile
               friendlies against top clubs, Regular showcase events for scouts

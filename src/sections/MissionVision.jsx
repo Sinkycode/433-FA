@@ -113,26 +113,6 @@ const MissionVision = () => {
           </motion.div>
         ))}
       </motion.div>
-
-      {/* Custom CSS for sliding jerseys */}
-      <style jsx>{`
-        .jersey-front {
-          transform: translateX(
-            clamp(-100%, calc((1440px - 100vw) * -0.5), 0px)
-          );
-        }
-        .jersey-back {
-          transform: translateX(clamp(0px, calc((1440px - 100vw) * 0.5), 100%));
-        }
-        @media (min-width: 1440px) {
-          .jersey-front {
-            transform: translateX(0);
-          }
-          .jersey-back {
-            transform: translateX(0);
-          }
-        }
-      `}</style>
     </section>
   );
 };

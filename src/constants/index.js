@@ -84,3 +84,22 @@ export const FacilitiesList = [
       "Professional Sports Gym designed for athletes equipped with fitness machine, dumbbells, kettlebells, plates, bars and all necessary performance-enhancing equipment personalized training support from certified ",
   },
 ];
+
+export const MethodologyList = [
+  {
+    title: "Technical",
+    description: "Enhancing individual skills and ball mastery",
+  },
+  {
+    title: "Tactical",
+    description: "Developing game intelligence and strategic awareness",
+  },
+  {
+    title: "Physical",
+    description: "Building strength, endurance, and agility",
+  },
+  {
+    title: "Psychological",
+    description: "Cultivating mental resilience and focus",
+  },
+];

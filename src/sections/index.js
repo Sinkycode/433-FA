@@ -6,7 +6,9 @@ import ProgramFeatures from "./ProgramFeatures";
 import WhoIsFor from "./WhoIsFor";
 import LocationSection from "./LocationSection";
 import Facilities from "./Facilities";
-ProgramFeatures;
+import Methodology from "./Methodology";
+import Why433Section1 from "./Why433Section1";
+import Why433Section2 from "./Why433Section2";
 
 export {
   HeroSection,
@@ -17,4 +19,7 @@ export {
   ProgramFeatures,
   LocationSection,
   Facilities,
+  Methodology,
+  Why433Section1,
+  Why433Section2,
 };
