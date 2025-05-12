@@ -10,6 +10,7 @@ import {
   Why433Section1,
   Why433Section2,
   Methodology,
+  Gallery,
 } from "./sections/index";
 
 const App = () => {
@@ -44,6 +45,9 @@ const App = () => {
       </section>
       <section className="min-h-screen relative">
         <Methodology />
+      </section>
+      <section className="min-h-screen relative">
+        <Gallery />
       </section>
     </>
   );
