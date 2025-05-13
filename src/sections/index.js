@@ -10,6 +10,8 @@ import Methodology from "./Methodology";
 import Why433Section1 from "./Why433Section1";
 import Why433Section2 from "./Why433Section2";
 import Gallery from "./Gallery";
+import Gallery2 from "./Gallery2";
+import SingleImage from "./SingleImage";
 
 export {
   HeroSection,
@@ -24,4 +26,6 @@ export {
   Why433Section1,
   Why433Section2,
   Gallery,
+  Gallery2,
+  SingleImage,
 };

@@ -7,6 +7,8 @@ import gallery2 from "./gallery2.webp";
 import gallery3 from "./gallery3.webp";
 import gallery4 from "./gallery4.webp";
 import galleryBig from "./galleryBig.webp";
+import gallery5 from "./gallery5.webp";
+import singleImagePicture from "./singleImage.webp";
 
 export {
   img1,
@@ -17,5 +19,7 @@ export {
   gallery2,
   gallery3,
   gallery4,
+  gallery5,
   galleryBig,
+  singleImagePicture,
 };

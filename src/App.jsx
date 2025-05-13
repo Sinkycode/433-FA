@@ -11,6 +11,8 @@ import {
   Why433Section2,
   Methodology,
   Gallery,
+  Gallery2,
+  SingleImage,
 } from "./sections/index";
 
 const App = () => {
@@ -48,6 +50,12 @@ const App = () => {
       </section>
       <section className="min-h-screen relative">
         <Gallery />
+      </section>
+      <section>
+        <Gallery2 />
+      </section>
+      <section>
+        <SingleImage />
       </section>
     </>
   );
