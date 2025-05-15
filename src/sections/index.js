@@ -11,6 +11,9 @@ import Why433Section1 from "./Why433Section1";
 import Why433Section2 from "./Why433Section2";
 import Gallery from "./Gallery";
 import Gallery2 from "./Gallery2";
+import Gallery3 from "./Gallery3";
+import Gallery4 from "./Gallery4";
+import LastSection from "./LastSection";
 import SingleImage from "./SingleImage";
 
 export {
@@ -27,5 +30,8 @@ export {
   Why433Section2,
   Gallery,
   Gallery2,
+  Gallery3,
+  Gallery4,
+  LastSection,
   SingleImage,
 };

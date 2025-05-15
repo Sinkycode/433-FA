@@ -9,6 +9,9 @@ import gallery4 from "./gallery4.webp";
 import galleryBig from "./galleryBig.webp";
 import gallery5 from "./gallery5.webp";
 import singleImagePicture from "./singleImage.webp";
+import conedrill1 from "./conedrill1.webp";
+import football from "./football.webp";
+import PWB1 from "./PWB1.webp";
 
 export {
   img1,
@@ -22,4 +25,7 @@ export {
   gallery5,
   galleryBig,
   singleImagePicture,
+  conedrill1,
+  football,
+  PWB1,
 };

@@ -12,6 +12,9 @@ import {
   Methodology,
   Gallery,
   Gallery2,
+  Gallery3,
+  Gallery4,
+  LastSection,
   SingleImage,
 } from "./sections/index";
 
@@ -57,6 +60,13 @@ const App = () => {
       <section>
         <SingleImage />
       </section>
+      <section>
+        <Gallery3 />
+      </section>
+      <section>
+        <Gallery4 />
+      </section>
+      <section>{/* <LastSection /> */}</section>
     </>
   );
 };
