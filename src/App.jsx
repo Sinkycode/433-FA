@@ -66,7 +66,9 @@ const App = () => {
       <section>
         <Gallery4 />
       </section>
-      <section>{/* <LastSection /> */}</section>
+      <section>
+        <LastSection />
+      </section>
     </>
   );
 };

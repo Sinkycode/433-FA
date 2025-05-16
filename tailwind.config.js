@@ -18,6 +18,7 @@ export default {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        nexa: ["Nexa", "sans-serif"],
       },
       colors: {
         primary: "#fc550e",

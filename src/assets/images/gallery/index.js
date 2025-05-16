@@ -12,6 +12,7 @@ import singleImagePicture from "./singleImage.webp";
 import conedrill1 from "./conedrill1.webp";
 import football from "./football.webp";
 import PWB1 from "./PWB1.webp";
+import stretch1 from "./stretch1.webp";
 
 export {
   img1,
@@ -28,4 +29,5 @@ export {
   conedrill1,
   football,
   PWB1,
+  stretch1,
 };

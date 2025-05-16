@@ -41,11 +41,7 @@ const Gallery3 = () => {
               <p className="text-lg">Per session</p>
             </div>
             {/* Slogan */}
-            <div
-              className="mt-10 uppercase text-primary flex gap-4 font-medium 
-  top-auto bottom-10 left-1/2 -translate-x-1/2
-  sm:top-20 sm:bottom-auto sm:left-20 sm:translate-x-0"
-            >
+            <div className="mt-10 uppercase text-primary flex gap-4 font-medium ">
               <p>precision.</p>
               <p>passion.</p>
               <p>performance</p>

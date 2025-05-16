@@ -1,8 +1,15 @@
 import { logo, logo2 } from "../assets/images";
 
-const LogoTag = ({ textSize = "w-12", logoSize = "w-12" }) => {
+const LogoTag = ({
+  textSize = "w-12",
+  logoSize = "w-12",
+  lineSize = "divide-x-2",
+  layout,
+}) => {
   return (
-    <ul className="divide-x-2 divide-black flex items-center gap-x-5">
+    <ul
+      className={`${lineSize} ${layout} divide-black flex items-center gap-x-5`}
+    >
       <li>
         <img src={logo} alt="" className={`${textSize} invert`} />
       </li>
