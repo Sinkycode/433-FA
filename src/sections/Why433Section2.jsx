@@ -13,7 +13,7 @@ const Why433Section2 = () => {
           <p className="uppercase text-lg justify-self-end mb-5 px-7">
             State-of-the-art-facilities
           </p>
-          <p className="bg-primary p-6 text-lg font-medium text-white leading-relaxed sm:rounded-s-full">
+          <p className="bg-primary p-6 text-lg font-medium text-white leading-relaxed sm:rounded-s-3xl">
             We provide a world-class training environment, including:
             High-quality grass and artificial pitches Video analysis technology
             for tactical improvements Strength and conditioning gym and Sports

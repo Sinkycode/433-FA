@@ -3,6 +3,7 @@ import {
   AboutSection,
   HeroSection,
   MissionVision,
+  TeamManagement,
   WhoIsFor,
   ProgramFeatures,
   LocationSection,
@@ -32,6 +33,9 @@ const App = () => {
       </section>
       <section>
         <MissionVision />
+      </section>
+      <section>
+        <TeamManagement />
       </section>
       <section>
         <WhoIsFor />

@@ -14,7 +14,7 @@ const Why433Section1 = () => {
           <p className="uppercase text-lg justify-self-end mb-5 px-7">
             Elite Training & Development
           </p>
-          <p className="bg-primary p-6 text-lg font-medium text-white leading-relaxed sm:rounded-s-full">
+          <p className="bg-primary p-6 text-lg font-medium text-white leading-relaxed sm:rounded-s-3xl">
             We follow a European-style training methodology designed to build
             technically gifted, tactically intelligent, and physically strong
             footballers. Our training sessions focus on:

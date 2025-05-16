@@ -13,6 +13,10 @@ import conedrill1 from "./conedrill1.webp";
 import football from "./football.webp";
 import PWB1 from "./PWB1.webp";
 import stretch1 from "./stretch1.webp";
+import stretchGround from "./stretchground.webp";
+import manager1 from "./manager1.webp";
+import startRunning from "./startrunningcon.webp";
+import soccerBall from "./soccerball.webp";
 
 export {
   img1,
@@ -30,4 +34,8 @@ export {
   football,
   PWB1,
   stretch1,
+  stretchGround,
+  manager1,
+  startRunning,
+  soccerBall,
 };

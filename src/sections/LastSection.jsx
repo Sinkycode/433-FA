@@ -63,7 +63,7 @@ const LastSection = () => {
               <FiGlobe className="text-xl text-white" />
             </div>
             <a
-              href="https://yourwebsite.com"
+              href="https://433-fa.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase font-medium text-sm"

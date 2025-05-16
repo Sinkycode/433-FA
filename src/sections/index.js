@@ -15,12 +15,14 @@ import Gallery3 from "./Gallery3";
 import Gallery4 from "./Gallery4";
 import LastSection from "./LastSection";
 import SingleImage from "./SingleImage";
+import TeamManagement from "./TeamManagement";
 
 export {
   HeroSection,
   AboutSection,
   ContactSection,
   MissionVision,
+  TeamManagement,
   WhoIsFor,
   ProgramFeatures,
   LocationSection,
