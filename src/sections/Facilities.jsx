@@ -2,6 +2,7 @@ import { FacilitiesList } from "../constants/index";
 import SocialLinks from "../components/SocialLinks";
 import Watermark from "../components/Watermark";
 import Slogan from "../components/Slogan";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 const Facilities = () => {
   return (
@@ -15,7 +16,13 @@ const Facilities = () => {
 
       <div className="sm:grid sm:grid-cols-2 gap-5 sm:mt-10">
         {FacilitiesList.map((item, index) => (
-          <div key={index} className="mb-10">
+          <motion.div // Use motion.div for the parallax effect
+            key={index}
+            className="mb-10"
+            initial={{ opacity: 0, y: 20 }} // Start with opacity 0 and slightly below
+            whileInView={{ opacity: 1, y: 0 }} // Animate to full opacity and original position
+            transition={{ duration: 0.5, delay: index * 0.1 }} // Add a delay based on index for staggered effect
+          >
             <div>
               <h1 className="uppercase font-bold text-3xl mb-6">
                 {item.facility}
@@ -28,7 +35,7 @@ const Facilities = () => {
               </h1>
               <p className="text-lg">{item.description}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
       <div className="absolute bottom-5 left-10">

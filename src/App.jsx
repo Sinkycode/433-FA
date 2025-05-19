@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTopButton from "./components/BackToTopButton";
 import {
   AboutSection,
   HeroSection,
@@ -22,6 +23,7 @@ import {
 const App = () => {
   return (
     <>
+      <BackToTopButton />
       <section>
         <HeroSection />
       </section>

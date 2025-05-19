@@ -2,6 +2,7 @@ import NumberTag from "../components/NumberTag";
 import { MethodologyList } from "../constants";
 import { methodology1 } from "../assets/images/gallery";
 import LogoTag from "../components/LogoTag";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 const Methodology = () => {
   return (
@@ -18,7 +19,7 @@ const Methodology = () => {
 
       {/* Content above the background */}
       <div className="relative z-10">
-        <div className=" mb-8">
+        <div className="mb-8">
           <p className="uppercase text-primary font-bold ml-8">
             Where dreams meet dedication
           </p>
@@ -49,16 +50,19 @@ const Methodology = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:w-[70%]">
           {MethodologyList.map((item, index) => (
-            <div
+            <motion.div // Use motion.div for the sliding effect
               key={index}
               className="flex items-center mb-4 p-4 border border-gray-300 rounded-lg bg-white/90 backdrop-blur-sm"
+              initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }} // Slide from left or right
+              whileInView={{ opacity: 1, x: 0 }} // Animate to full opacity and original position
+              transition={{ duration: 0.5, delay: index * 0.1 }} // Staggered effect
             >
               <NumberTag number={index + 1} />
               <div className="ml-4">
                 <h3 className="text-xl font-bold text-primary">{item.title}</h3>
                 <p className="text-lg">{item.description}</p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
